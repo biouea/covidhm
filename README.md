@@ -12,10 +12,11 @@ Case isolation and contact tracing can contribute to the control of COVID-19 out
 
 ### Set up
 
-Install the analysis by downloading the repository. Navigate to the parent directory, then run: 
+Install the analysis: 
 
 ```r
-devtools::install("covidhm-master",dependencies = TRUE) #or whatever your folder is called
+Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS=TRUE)
+devtools::install("covidhm-master",dependencies = TRUE)
 ```
 
 

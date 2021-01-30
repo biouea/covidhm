@@ -15,7 +15,7 @@ Case isolation and contact tracing can contribute to the control of COVID-19 out
 Install the analysis with: 
 
 ```r
-devtools::install_github("biouea/covidhm", dependencies = TRUE)
+devtools::install_github("biouea/covidhm")
 ```
 
 

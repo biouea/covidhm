@@ -12,10 +12,10 @@ Case isolation and contact tracing can contribute to the control of COVID-19 out
 
 ### Set up
 
-Install the analysis with: 
+Install the analysis by downloading the repository. Navigate to the parent directory, then run: 
 
 ```r
-devtools::install_github("biouea/covidhm")
+devtools::install("covidhm-master",dependencies = TRUE) #or whatever your folder is called
 ```
 
 

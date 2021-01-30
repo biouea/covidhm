@@ -1,0 +1,42 @@
+Package: covidhm
+Type: Package
+Title: Assessment of contact tracing, social distancing, and real-world social tracking data for control of COVID-19
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Lewis Spurgin",
+           role = c("aut", "cre"),
+           email = "L.Spurgin@uea.ac.uk",
+           comment = c(ORCID = "0000-0002-0874-9281")),
+    person(given = "Joel Hellewell",
+           role = c("aut"),
+           email = "Joel.Hellewell@lshtm.ac.uk",
+           comment = c(ORCID = "0000-0003-2683-0849")))
+Description: Assessment of contact tracing, social distancing, and real-world social tracking data for control of COVID-19
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Depends:
+    R (>= 3.5.0)
+Imports: 
+    magrittr,
+    dplyr,
+    tidyr,
+    furrr,
+    purrr,
+    ggplot2,
+    patchwork,
+    sn,
+    ggrepel,
+    cowplot,
+    tibble,
+    readr,
+    data.table,
+    igraph,
+    reshape2,
+    clue,
+    fields,
+    diagram
+Suggests:
+    future
